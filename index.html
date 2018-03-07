@@ -18,10 +18,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Lora:700italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <!--================= Navbar =============== -->
+  <!--================= Navbar =================-->
   <section class="container-fluid">
-    <nav class="row navbar navbar-default">
-      <div class="container-fluid">
+    <nav class="row navbar navbar-default bg">
+      <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -36,52 +36,53 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Paquetes de entrenamiento</a></li>
-            <li><a href="#">Testimonios</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#packages">Paquetes de entrenamiento</a></li>
+            <li><a href="#testimonies">Testimonios</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
   </section>
 
-  <div class="container-fluid">
-    <!--================= Carrousel =============== -->
-    <!-- <section class="row carousel-vh">
-      <div id="carousel-example-generic" class="col-md-12 carousel slide" data-ride="carousel"> -->
+  <div>
+    <!--================= Carrousel =================-->
+
+    <section class="row carousel-vh">
+      <div id="carousel-example-generic" class="col-md-12 carousel slide" data-ride="carousel">
         <!-- Indicators -->
-        <!-- <ol class="carousel-indicators">
+        <ol class="carousel-indicators">
           <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
           <li data-target="#carousel-1" data-slide-to="1"></li>
           <li data-target="#carousel-1" data-slide-to="2"></li>
         </ol>
- -->
+
         <!-- Wrapper for slides -->
-        <!-- <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img class="vh" src="./assets/images/san-silvestre-edicion.jpg" alt="san silvestre edicion">
+            <img class="vh" src="./assets/images/home-bg-slider-img.jpg" alt="san silvestre edicion">
             <div class="carousel-caption">
               ...
             </div>
           </div>
           <div class="item">
-            <img class="vh" src="./assets/images/runtips.JPG" alt="runtips">
+            <img class="vh" src="./assets/images/home-bg-slider-img2.jpg" alt="runtips">
             <div class="carousel-caption">
               ...
             </div>
           </div>
           <div class="item">
-            <img class="vh" src="./assets/images/1.jpg" alt="1">
+            <img class="vh" src="./assets/images/home-bg-slider-img.jpg" alt="1">
             <div class="carousel-caption">
               ...
             </div>
           </div>
-        </div> -->
+        </div>
 
         <!-- Controls -->
-        <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
           <span aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
@@ -90,9 +91,10 @@
           <span class="sr-only">Next</span>
         </a>
       </div>      
-    </section> -->
-    <!-- ============== about ============== -->
-    <section class="row">
+    </section>
+
+    <!--================= About =================-->
+    <section id="about" class="row">
       <article class="logo">
         <div class="col-md-5 col-md-offset-1">
           <img class="img-responsive" src="./assets/images/rtmxlogo.png">
@@ -108,6 +110,98 @@
         </div>
       </article>
     </section>
+
+    <!--================= Newsletter  =================-->
+    <section id="newsletter" class="row">
+      <div class="text-center newsletter_bg">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
+            <h2>Registrate a Runtips MX</h2>
+            <p>Regístrate para recibir Tips y Promociones.</p>
+            <div class="newsletter_detail">
+              <form action="#" method="post" id="newsletter-signup">
+                <div class="col-md-6 col-sm-6">
+                  <input name="name" type="text" class="form-control" id="name" placeholder="Nombre">
+                  </div>
+                <div class="col-md-6 col-sm-6">
+                  <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+                  </div>
+                <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+                  <input name="submit" type="submit" class="form-control" id="submit" value="ENVIAR MENSAJE">
+                </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--================= Blog  =================-->
+    <section id="blog" class="row">
+      <div class="col-md-12 col-sm-12 text-center">
+        <h2>Runtipsmx Blog</h2>
+        <p>...</p>
+      </div>
+    </section>
+
+    <!--================= Packages  =================-->
+
+    <section id="packages">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 text-center" data-wow-delay="0.9s">
+            <h2>Paquetes de entrenamiento</h2>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="pricing__item">
+              <h3 class="pricing__title">ONLINE</h3>
+              <div class="pricing__price"><span>$</span>160</div>
+              <ul class="pricing__feature-list">
+                <li class="pricing__feature">Entrenamiento Personalizado</li>
+                <li class="pricing__feature">Acceso a Vídeos de Fortalecimiento Muscular</li>
+                <li class="pricing__feature">Test Físico de Diagnóstico y Seguimiento</li>
+                <li class="pricing__feature">Seguimiento Personalizado</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="pricing__item">
+              <h3 class="pricing__title">Presencial</h3>
+              <ul class="pricing__feature-list">
+                <li class="pricing__feature">Entrenamiento Personalizado + Sesiones Presenciales.</li>
+                <li class="pricing__feature">Acceso a Vídeos de Fortalecimiento Muscular</li>
+                <li class="pricing__feature">Test Físico de Diagnóstico y Seguimiento</li>
+                <li class="pricing__feature">Seguimiento Personalizado</li>
+                <li class="pricing__feature">Descuentos en servicios (Nutrición, Médicos y Masajes).</li>
+              </ul>
+              <button class="pricing__action">Solicita Cotizacion</button>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="pricing__item">
+              <h3 class="pricing__title">Premium</h3>
+              <ul class="pricing__feature-list">
+                <li class="pricing__feature">Entrenamiento, Running y GYM Personalizado</li>
+                <li class="pricing__feature">Sesiones de Entrenamiento en tu Lugar de Preferencia.</li>
+                <li class="pricing__feature">Evaluación Física de Diagnóstico y Seguimiento</li>
+              </ul>
+              <button class="pricing__action">Solicita Cotizacion</button>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="pricing__item">
+              <h3 class="pricing__title">Empresarial</h3>
+              <ul class="pricing__feature-list">
+                <li class="pricing__feature">Evaluaciones físicas y Nutricionales</li>
+                <li class="pricing__feature">Elaboramos Programas Para tus Colaboradores Acorde a sus Necesidades</li>
+              </ul>
+              <button class="pricing__action">Solicita Cotiacion</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
