@@ -1,0 +1,60 @@
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/*----------------------------------
+	Navbar Section
+-----------------------------------*/
+
+.bg {
+	background: white;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	/*position: fixed;*/
+}
+
+
+/*----------------------------------
+	Carrousel Section
+-----------------------------------*/
+ .carousel-vh {
+ 	/*height: 50vh !important;*/
+ }
+
+ .vh {
+ 	/*height: 80vh !important;*/
+ 	width: 100% !important;
+ }
+
+/*----------------------------------
+	Newsletter Section
+-----------------------------------*/
+ .newsletter_bg {
+ 	background-image: url("../assets/images/newsletter-bg.jpg");
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	height: 80vh;
+ 	color: white;
+ 	padding-top: 150px;
+ }
+
+/*----------------------------------
+	Packages Section
+-----------------------------------*/
+ .pricing__item {
+ 	border: 1px solid white;
+ 	padding: 10px;
+ 	height: 60vh;
+ }
+
+ #packages {
+ 	background-image: url("../assets/images/packages-bg.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	color: white;
+ 	padding: 0;
+ }
+
+
