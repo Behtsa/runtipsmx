@@ -122,13 +122,20 @@ p{
     letter-spacing: 4px;
     height: 65px;
     margin-top: 42px;
-
+}
 /*----------------------------------
 	Packages Section
 -----------------------------------*/
+
+.packages {
+ 	padding: 0px !important;
+ }
+
  .pricing__item {
  	border: 1px solid white;
  	padding: 10px;
+ 	margin-left: 20px;
+ 	margin-bottom: 30px;
  	height: 60vh;
  }
 
@@ -140,6 +147,18 @@ p{
  	padding: 0;
  }
 
+#packages .row {
+	width: 100%;
+}
 
-
+.pricing__action {
+	background: #26253a;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    height: 65px;
+    margin-top: 42px;
+}
 
