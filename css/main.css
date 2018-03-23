@@ -162,3 +162,20 @@ p{
     margin-top: 42px;
 }
 
+
+/*----------------------------------
+	Footer Section
+-----------------------------------*/
+
+.footer-bg{
+	background-color: #292A3F;
+	padding: 15px;
+}
+
+footer h2, i, .shift{
+	color: #fff;
+}
+
+footer i {
+	letter-spacing: 20px;
+}
