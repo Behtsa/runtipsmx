@@ -5,22 +5,20 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
+  <!--Css-->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-
 	<!-- Main css -->
 	<link rel="stylesheet" href="css/main.css">
-
 	<!-- Google Font -->
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lora:700italic' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
   <!--================= Navbar =================-->
-  <section class="container-fluid">
-    <nav class="row navbar navbar-default bg">
+  <header>
+    <nav class="navbar navbar-default bg">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -43,63 +41,66 @@
             <li><a href="#testimonies">Testimonios</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+      </div><!-- /.container-->
     </nav>
-  </section>
+  </header>
 
-  <div>
-    <!--================= Carrousel =================-->
+  <!--================= Carrousel =================-->
+  <main class="marging-bottom">
+    <div id="container">
+      <section>
+        <div id="carousel-example-generic" class="col-md-12 carousel slide carousel-padding" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-1" data-slide-to="1"></li>
+            <li data-target="#carousel-1" data-slide-to="2"></li>
+          </ol>
 
-    <section class="row carousel-vh">
-      <div id="carousel-example-generic" class="col-md-12 carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-1" data-slide-to="1"></li>
-          <li data-target="#carousel-1" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img class="vh" src="./assets/images/home-bg-slider-img.jpg" alt="san silvestre edicion">
-            <div class="carousel-caption">
-              ...
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img class="img-responsive" src="./assets/images/home-bg-slider-img.jpg" alt="san silvestre edicion">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="./assets/images/home-bg-slider-img2.jpg" alt="runtips">
+              <div class="carousel-caption">
+                ...
+              </div>
+            </div>
+            <div class="item">
+              <img class="vh" src="./assets/images/home-bg-slider-img.jpg" alt="1">
+              <div class="carousel-caption">
+                ...
+              </div>
             </div>
           </div>
-          <div class="item">
-            <img class="vh" src="./assets/images/home-bg-slider-img2.jpg" alt="runtips">
-            <div class="carousel-caption">
-              ...
-            </div>
-          </div>
-          <div class="item">
-            <img class="vh" src="./assets/images/home-bg-slider-img.jpg" alt="1">
-            <div class="carousel-caption">
-              ...
-            </div>
-          </div>
-        </div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <span aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <span aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>      
-    </section>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>      
+      </section>
+    </div>
+  </main>
 
-    <!--================= About =================-->
-    <section id="about" class="row">
-      <article class="logo">
-        <div class="col-md-5 col-md-offset-1">
+  <!--================= About =================-->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <article class="col-md-6 col-sm-12">
           <img class="img-responsive" src="./assets/images/rtmxlogo.png">
-        </div>
-        <div class="col-md-3 col-md-offset-1">
+        </article>
+        <article class="col-md-offset-1 col-md-4 col-sm-12">
           <h2>ACERCA DE RUNTIPSMX</h2>
           <p>
             Elaboramos tu entrenamiento 100% personalizado acorde a los resultados de un test físico aplicado enfocándolo a los objetivos que quieras lograr.
@@ -107,49 +108,40 @@
           <p>
             Siempre tienes seguimiento para aclarar dudas e ir monitoreando tus avances.
           </p>
-        </div>
-      </article>
-    </section>
+        </article>
+      </div>
+    </div>
+  </section>
 
-    <!--================= Newsletter  =================-->
-    <section id="newsletter" class="row">
-      <div class="text-center newsletter_bg">
+  <!--================= Newsletter  =================-->
+  <section id="newsletter" class="newsletter_bg">
+    <div id="container">
+      <div class="newsletter col-md-offset-2 col-md-8">
+        <h2 class="text-center">Registrate a Runtips MX</h2>
+        <p class="text-center">Regístrate para recibir Tips y Promociones.</p>
         <div class="row">
-          <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
-            <h2>Registrate a Runtips MX</h2>
-            <p>Regístrate para recibir Tips y Promociones.</p>
-            <div class="newsletter_detail">
-              <form action="#" method="post" id="newsletter-signup">
-                <div class="col-md-6 col-sm-6">
-                  <input name="name" type="text" class="form-control" id="name" placeholder="Nombre">
-                  </div>
-                <div class="col-md-6 col-sm-6">
-                  <input name="email" type="email" class="form-control" id="email" placeholder="Email">
-                  </div>
-                <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
-                  <input name="submit" type="submit" class="form-control" id="submit" value="ENVIAR MENSAJE">
-                </div>
-                </form>
+          <form>
+            <div class="col-md-6 col-sm-12">
+              <input name="name" type="text" class="form-control" id="name" placeholder="Nombre">
             </div>
-          </div>
+            <div class="col-md-6 col-sm-12">
+              <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="col-md-offset-4 col-md-4 col-sm-12">
+              <input name="submit" type="submit" class="form-control" id="submit" value="ENVIAR MENSAJE">
+            </div>
+          </form>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!--================= Blog  =================-->
-    <section id="blog" class="row">
-      <div class="col-md-12 col-sm-12 text-center">
-        <h2>Runtipsmx Blog</h2>
-        <p>...</p>
-      </div>
-    </section>
+  <!--================= Packages  =================-->
 
-    <!--================= Packages  =================-->
-
-    <section id="packages">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 text-center" data-wow-delay="0.9s">
+  <section id="packages">
+    <div id="container">
+      <div class="row">
+          <div class="col-md-12 col-sm-12 text-center packages">
             <h2>Paquetes de entrenamiento</h2>
           </div>
           <div class="col-md-3 col-sm-6">
@@ -199,25 +191,25 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <!--================= Footer  =================-->
+  <!--================= Footer  =================-->
     <footer>
-      <div>
+      <div class="footer-bg text-center">
         <div class="row">
-          <div class="col-md-3 col-md-offset-1">
+          <div class="col-md-3 col-md-offset-1 col-sm-12">
             <h2>Acerca de Runtipsmx</h2>
             <p>Nunc id turpis tincidunt dui volutpat hendrerit et efficitur dolor. Morbi quis tempor felis, ut dictum ipsum. Praesent venenatis rutrum interdum.</p>
           </div>
-          <div class="col-md-3 col-md-offset-1">
+          <div class="col-md-3 col-md-offset-1 col-sm-12">
             <h2>Sesiones</h2>
-            <p><strong>Matutino</strong></p>
+            <p class="shift"><strong>Matutino</strong></p>
             <p>6:00 AM - 11:00 PM</p>
-            <p><strong>Vespertino</strong></p>
+            <p class="shift"><strong>Vespertino</strong></p>
             <p>4:00 PM - 9:00 PM</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-12">
             <h2>Siguenos</h2>
             <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
             <span><i class="fa fa-twitter" aria-hidden="true"></i></span>
@@ -228,12 +220,11 @@
           </div>
         </div>
         <div class="row">
-          <p class="container">Copyright &copy; 2018 Runtips</p>
+          <p class="col-md-12 text-center">Copyright &copy; 2018 Runtips</p>
         </div>
       </div>
     </footer>
 
-  </div>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 </body>
