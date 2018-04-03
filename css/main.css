@@ -171,6 +171,10 @@ p{
 	margin-bottom: 50px !important;
 }
 
+.pd-left {
+	padding-right: 0px !important;
+}
+
 .pricing__feature-list {
 	letter-spacing: 0.6px;
 	font-size: bold;
