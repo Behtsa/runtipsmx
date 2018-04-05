@@ -231,7 +231,7 @@ p{
 }
 
 @media only screen and (min-device-width: 320px){
-	.pricing__item {
+	.bigger {
 		height: 80vh;
 	}
 }
