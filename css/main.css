@@ -54,6 +54,10 @@ main {
 	background-size: cover;
  }
 
+.carousel-caption {
+	padding-bottom: 30px;
+}
+
 .carousel-caption h3 {
 	font-family: 'Lora', sans-serif;
 	font-size: 18px;
