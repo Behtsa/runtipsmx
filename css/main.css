@@ -197,6 +197,10 @@ p{
 	padding: 8px;
 }
 
+.pricing__feature_presencial {
+	padding: 3.5px;
+}
+
 .pricing__action {
 	background: #26253a;
 	border: none;
@@ -224,6 +228,12 @@ p{
 	margin: 1em auto;
 	text-align: center;
 	width: 120px;
+}
+
+@media only screen and (min-device-width: 320px){
+	.pricing__item {
+		height: 80vh;
+	}
 }
 
 
