@@ -234,7 +234,7 @@ p{
 	width: 120px;
 }
 
-@media only screen and (max-width: 374px ){
+@media only screen and (max-device-width: 374px ){
 	.pricing__item {
 		height: 80vh;
 	}
