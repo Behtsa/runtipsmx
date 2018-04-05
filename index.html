@@ -7,7 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!--Css-->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
 	<!-- Main css -->
 	<link rel="stylesheet" href="css/main.css">
 	<!-- Google Font -->
@@ -15,7 +16,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Lora:700italic' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
+<body data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
   <!--================= Navbar =================-->
   <header>
     <nav class="navbar navbar-default bg">
@@ -34,10 +35,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Acerca de</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#packages">Paquetes de entrenamiento</a></li>
+            <li><a href="#home" class="smoothScroll">Home</a></li>
+            <li><a href="#about" class="smoothScroll">Acerca de</a></li>
+            <li><a href="#newsletter" class="smoothScroll">Registrate</a></li>
+            <li><a href="#packages" class="smoothScroll">Paquetes de entrenamiento</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-->
@@ -47,7 +48,7 @@
   <!--================= Carrousel =================-->
   <main class="marging-bottom">
     <div id="container">
-      <section>
+      <section id="home">
         <div id="carousel-example-generic" class="col-md-12 carousel slide carousel-padding" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -131,7 +132,7 @@
         <h2 class="text-center">Registrate a Runtips MX</h2>
         <p class="text-center">Regístrate para recibir Tips y Promociones.</p>
         <div class="row">
-          <form>
+          <form action="mailto:behtsabet14@gmail.com" method="post" enctype="text/plain">
             <div class="col-md-6 col-sm-12">
               <input name="name" type="text" class="form-control" id="name" placeholder="Nombre">
             </div>
@@ -223,5 +224,6 @@
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
 </body>
 </html>
