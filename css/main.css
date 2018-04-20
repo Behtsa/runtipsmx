@@ -37,7 +37,11 @@ body {
 main {
 	height: 100vh;
 	margin-bottom: 25px;
-	filter: grayscale(60%);
+	/*filter: grayscale(60%);*/
+	background-image: url('../assets/images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
  .carousel-padding {
 	padding-right: 0px !important;
@@ -61,6 +65,18 @@ main {
 .carousel-caption h3 {
 	font-family: 'Lora', sans-serif;
 	font-size: 18px;
+}
+
+
+
+#text {
+	background: rgba(54, 25, 25, .4);
+	color: #fff;
+	margin-top: 250px;
+}
+
+#home h2{
+	font-family: 'Lora', sans-serif;
 }
 
  /*----------------------------------
