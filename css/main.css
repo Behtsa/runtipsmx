@@ -89,20 +89,22 @@ main {
 }
 
 .text {
-	background-color:rgba(113, 195, 251, .7);
+	/*background-color:rgba(113, 195, 251, .7);*/
+	background-color: rgba(38, 37, 58, .5);
 	color: #fff;
 	border-radius: 5%;
 }
 
 .mobile__msg {
-	background-color:rgba(113, 195, 251, .7);
-	color: black;
+	/*background-color:rgba(113, 195, 251, .7);*/
+	background-color: rgba(38, 37, 58, .8);
+	color: #fff;
 	position: relative;
 	top: 400px;
 }
 
 .mobile__msg > p {
-	color: black;
+	color: #fff;
 }
 
  @media only screen and (max-device-width: 977px) {
