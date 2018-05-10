@@ -30,18 +30,22 @@ body {
     width: 100%;
 }
 
+.brand {
+	font-size: 1.5em;
+}
 
+.font-size {
+	font-size: 15px;
+}
 /*----------------------------------
 	Carrousel Section
 -----------------------------------*/
 main {
 	height: 100vh;
 	margin-bottom: 25px;
-	/*filter: grayscale(60%);*/
-	background-image: url('../assets/images/background.jpg');
+	background-image: url('../assets/images/run-41.JPG');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
 }
  .carousel-padding {
 	padding-right: 0px !important;
@@ -55,6 +59,7 @@ main {
  main img {
 	height: 100vh !important;
 	width: 100%;
+	margin: auto;
 	background-size: cover;
  }
 
@@ -68,15 +73,44 @@ main {
 }
 
 
-
 #text {
 	background: rgba(54, 25, 25, .4);
 	color: #fff;
-	margin-top: 250px;
+	position: relative;
+	top: 250px;
 }
 
-#home h2{
+#text h1 {
+	margin-top: 0;
+}
+
+#home h3{
 	font-family: 'Lora', sans-serif;
+}
+
+.text {
+	/*background-color:rgba(113, 195, 251, .7);*/
+	background-color: rgba(38, 37, 58, .5);
+	color: #fff;
+	border-radius: 5%;
+}
+
+.mobile__msg {
+	/*background-color:rgba(113, 195, 251, .7);*/
+	background-color: rgba(38, 37, 58, .8);
+	color: #fff;
+	position: relative;
+	top: 400px;
+}
+
+.mobile__msg > p {
+	color: #fff;
+}
+
+ @media only screen and (max-device-width: 977px) {
+	main {
+		background-position: center;
+	}
 }
 
  /*----------------------------------
@@ -229,8 +263,17 @@ p{
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 4px;
-	height: 65px;
-	
+	height: 65px;	
+}
+
+.position1 {
+	position: relative;
+	top: 50px;
+}
+
+.position2 {
+	position: relative;
+	top: 125px;
 }
 
 .pricing__title {
@@ -249,6 +292,7 @@ p{
 	text-align: center;
 	width: 120px;
 }
+
 
 @media only screen and (max-device-width: 374px ){
 	.pricing__item {
