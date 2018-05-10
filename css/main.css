@@ -113,6 +113,37 @@ main {
 	}
 }
 
+@media only screen and (max-device-height: 569px) {
+	.mobile__msg {
+		top: 100px;
+	}
+}
+
+@media only screen and (min-device-height: 570px) and (max-device-height: 641px) {
+	.mobile__msg {
+		top: 225px;
+	}
+}
+
+@media only screen and (min-device-height: 642px) and (max-device-height: 668px) {
+	.mobile__msg {
+		top: 250px;
+	}
+}
+
+@media only screen and (min-device-height: 669px) and (max-device-height: 732px) {
+	.mobile__msg {
+		top: 380px;
+	}
+}
+
+@media only screen and (min-device-height: 1024px) {
+	.mobile__msg {
+		top: 700px;
+	}
+}
+
+
  /*----------------------------------
 	About Section
 -----------------------------------*/
