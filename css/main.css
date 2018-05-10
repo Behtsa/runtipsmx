@@ -100,7 +100,7 @@ main {
 	background-color: rgba(38, 37, 58, .8);
 	color: #fff;
 	position: relative;
-	top: 400px;
+	top: 350px;
 }
 
 .mobile__msg > p {
@@ -119,7 +119,13 @@ main {
 	}
 }
 
-@media only screen and (min-device-height: 570px) and (max-device-height: 641px) {
+@media only screen and (max-device-width: 298px) and (max-device-height: 619px) {
+	.mobile__msg {
+		top: 150px;
+	}
+}
+
+/*@media only screen and (min-device-height: 570px) and (max-device-height: 641px) {
 	.mobile__msg {
 		top: 225px;
 	}
@@ -135,7 +141,7 @@ main {
 	.mobile__msg {
 		top: 380px;
 	}
-}
+}*/
 
 @media only screen and (min-device-height: 1024px) {
 	.mobile__msg {
